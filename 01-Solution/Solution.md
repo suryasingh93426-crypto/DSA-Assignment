@@ -324,18 +324,20 @@ O(n)
 
 Que--  Linear Queue vs Circular Queue
 
-Feature                      Linear Queue                Circular Queue
 
-Principle                     FIFO                         FIFO
 
-ENQUEUE                       O(1)                         O(1)
+Feature                         Linear Queue                Circular Queue
 
-DEQUEUE                       O(1)                         O(1)
+Principle                        FIFO                         FIFO
 
-DISPLAY                       O(n)                         O(n)
+ENQUEUE                          O(1)                         O(1)
 
-Memory utilization            Less efficient               More efficient
+DEQUEUE                          O(1)                         O(1)
 
-Reuse of empty positions      Limited                      Yes
+DISPLAY                          O(n)                         O(n)
 
-Structure                     Linear                       Circular
+Memory utilization               Less efficient               More efficient
+
+Reuse of empty positions         Limited                      Yes
+
+Structure                        Linear                       Circular
